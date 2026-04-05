@@ -1,1 +1,1 @@
-Models used in the aibirder
+Models used in the mobile app A!Birder.
