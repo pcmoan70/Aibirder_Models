@@ -1,13 +1,13 @@
 {
   "id": "birdnet_v2.4",
-  "display_name": "BirdNET 2.4",
+  "display_name": "BirdNet v2.4",
   "short_code": "BN2",
   "version": "2.4",
   "domain": "taxon",
 
   "model": {
-    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/BirdNET_models/BirdNET_GLOBAL_6K_V2.4_Model_FP16.tflite",
-    "md5": "b1c981fe261910b473b9b7eec9ebcd4e",
+    "url": "https://huggingface.co/justinchuby/BirdNET-onnx/resolve/main/BirdNET_GLOBAL_6K_V2.4_Model_FP32.tflite",
+    "md5": "6c7c42106e56550fc8563adb31bc120e",
     "runtime": "tflite",
     "filename": "model.tflite"
   },
@@ -32,12 +32,12 @@
   "calibration": null,
 
   "labels": {
-    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/BirdNET_models/BirdNET_GLOBAL_6K_V2.4_Labels_en_uk.txt",
-    "md5": null,
+    "url": "https://huggingface.co/justinchuby/BirdNET-onnx/resolve/main/BirdNET_GLOBAL_6K_V2.4_Labels.txt",
+    "md5": "b87715542abf32551d28994b78c0d846",
     "filename": "labels.txt",
-    "has_header": true,
-    "columns": null,
-    "delimiter": "auto",
+    "has_header": false,
+    "columns": ["scientific_name", "common_name_en"],
+    "delimiter": "_",
     "key_column": "scientific_name",
     "class_idx_column": null,
     "class_idx_start": 0

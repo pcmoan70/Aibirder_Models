@@ -7,7 +7,7 @@
 
   "model": {
     "url": "https://huggingface.co/ernensbjorn/perch-v2-int8-tflite/resolve/main/perch_v2_fp16.tflite",
-    "md5": null,
+    "md5": "4e58859fd3e24b687b0deccd2d9c55bd",
     "runtime": "tflite",
     "filename": "model.tflite"
   },
@@ -32,12 +32,12 @@
   "calibration": null,
 
   "labels": {
-    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/perch_v2/perch_v2_labels.csv",
-    "md5": null,
-    "filename": "labels.csv",
-    "has_header": true,
-    "columns": null,
-    "delimiter": "auto",
+    "url": "https://huggingface.co/ernensbjorn/perch-v2-int8-tflite/resolve/main/labels.txt",
+    "md5": "23acddc7d651f8600ae91546a52f3857",
+    "filename": "labels.txt",
+    "has_header": false,
+    "columns": ["scientific_name"],
+    "delimiter": "_",
     "key_column": "scientific_name",
     "class_idx_column": null,
     "class_idx_start": 0

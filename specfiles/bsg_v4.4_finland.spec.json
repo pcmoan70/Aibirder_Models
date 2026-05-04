@@ -1,12 +1,12 @@
 {
   "id": "bsg_v4.4_finland",
-  "display_name": "BSG v4.4 Finland",
-  "short_code": "BSG",
+  "display_name": "BSG_Finland_v4.4",
+  "short_code": "BF4",
   "version": "4.4",
   "domain": "taxon",
 
   "model": {
-    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/BSG_v4_4/BSG_birds_Finland_v4_4_fused_fp32.onnx",
+    "url": "https://huggingface.co/tphakala/BSG/resolve/main/BSG_birds_Finland_v4_4_fused_fp32.onnx",
     "md5": "336261dc64a73aa643ad6aa2dca694d0",
     "runtime": "onnx",
     "filename": "model.onnx"
@@ -30,18 +30,18 @@
   },
 
   "calibration": {
-    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/BSG_v4_4/BSG_birds_Finland_v4_4_calibration.csv",
-    "md5": null,
+    "url": "https://huggingface.co/tphakala/BSG/resolve/main/BSG_birds_Finland_v4_4_calibration.csv",
+    "md5": "19f2f88f16a9868766fb9f5f7423496f",
     "filename": "calibration.csv"
   },
 
   "labels": {
-    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/BSG_v4_4/BSG_birds_Finland_v4_4_labels_fi.txt",
-    "md5": null,
+    "url": "https://huggingface.co/tphakala/BSG/resolve/main/BSG_birds_Finland_v4_4_labels_fi.txt",
+    "md5": "c10881e3152e7e4e068e823237233c2d",
     "filename": "labels.txt",
-    "has_header": true,
-    "columns": null,
-    "delimiter": "auto",
+    "has_header": false,
+    "columns": ["scientific_name", "common_name_fi"],
+    "delimiter": "_",
     "key_column": "scientific_name",
     "class_idx_column": null,
     "class_idx_start": 0
