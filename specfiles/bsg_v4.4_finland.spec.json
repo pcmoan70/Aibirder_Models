@@ -1,0 +1,52 @@
+{
+  "id": "bsg_v4.4_finland",
+  "display_name": "BSG v4.4 Finland",
+  "short_code": "BSG",
+  "version": "4.4",
+  "domain": "taxon",
+
+  "model": {
+    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/BSG_v4_4/BSG_birds_Finland_v4_4_fused_fp32.onnx",
+    "md5": "336261dc64a73aa643ad6aa2dca694d0",
+    "runtime": "onnx",
+    "filename": "model.onnx"
+  },
+
+  "input": {
+    "sample_rate_hz": 48000,
+    "window_ms": 3000,
+    "samples": 144000,
+    "format": "int16_to_float32",
+    "target_peak": null
+  },
+
+  "output": {
+    "class_count": 265,
+    "primary_output_index": 0,
+    "embedding_output_index": null,
+    "post_process": "platt_scaling",
+    "logit_clamp_low": null,
+    "logit_clamp_high": null
+  },
+
+  "calibration": {
+    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/BSG_v4_4/BSG_birds_Finland_v4_4_calibration.csv",
+    "md5": null,
+    "filename": "calibration.csv"
+  },
+
+  "labels": {
+    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/BSG_v4_4/BSG_birds_Finland_v4_4_labels_fi.txt",
+    "md5": null,
+    "filename": "labels.txt",
+    "has_header": true,
+    "columns": null,
+    "delimiter": "auto",
+    "key_column": "scientific_name",
+    "class_idx_column": null,
+    "class_idx_start": 0
+  },
+
+  "stride_percent_default": 50,
+  "stall_tolerance_ms": 60000
+}

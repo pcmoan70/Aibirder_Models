@@ -1,0 +1,48 @@
+{
+  "id": "birdnet_v2.4",
+  "display_name": "BirdNET 2.4",
+  "short_code": "BN2",
+  "version": "2.4",
+  "domain": "taxon",
+
+  "model": {
+    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/BirdNET_models/BirdNET_GLOBAL_6K_V2.4_Model_FP16.tflite",
+    "md5": "b1c981fe261910b473b9b7eec9ebcd4e",
+    "runtime": "tflite",
+    "filename": "model.tflite"
+  },
+
+  "input": {
+    "sample_rate_hz": 48000,
+    "window_ms": 3000,
+    "samples": 144000,
+    "format": "int16_to_float32",
+    "target_peak": null
+  },
+
+  "output": {
+    "class_count": 6522,
+    "primary_output_index": 0,
+    "embedding_output_index": 1,
+    "post_process": "sigmoid",
+    "logit_clamp_low": null,
+    "logit_clamp_high": null
+  },
+
+  "calibration": null,
+
+  "labels": {
+    "url": "https://raw.githubusercontent.com/pcmoan70/Aibirder_Models/main/BirdNET_models/BirdNET_GLOBAL_6K_V2.4_Labels_en_uk.txt",
+    "md5": null,
+    "filename": "labels.txt",
+    "has_header": true,
+    "columns": null,
+    "delimiter": "auto",
+    "key_column": "scientific_name",
+    "class_idx_column": null,
+    "class_idx_start": 0
+  },
+
+  "stride_percent_default": 50,
+  "stall_tolerance_ms": 60000
+}
