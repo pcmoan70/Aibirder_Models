@@ -1,0 +1,20 @@
+{
+  "jfk.wav": {
+    "text": "And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
+    "seconds": 0.91,
+    "tokens": 225,
+    "ref": "And so my fellow Americans ask not what your country can do for you, ask what you can do for your country."
+  },
+  "king_no.wav": {
+    "text": "I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this country. I am very happy that you have to learn the language of this",
+    "seconds": 2.59,
+    "tokens": 225,
+    "ref": "I am not a learning teacher, a learning teacher, or a culture of language. I am also a professor of English, Pakistan, Poland, Swagia, Somalia, and Syria."
+  },
+  "speech_phone.wav": {
+    "text": ".",
+    "seconds": 0.47,
+    "tokens": 225,
+    "ref": "."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "jfk.wav": {
+    "text": "Og så, mine feil, Amerika, spør ikke hva landet ditt kan gjøre for deg, spør hva du kan gjøre for landet ditt.",
+    "seconds": 1.01,
+    "tokens": 225,
+    "ref": "Og så, mine feil-amerikanske, spør ikke hva landet kan gjøre for deg, spør hva du kan gjøre for landet ditt!"
+  },
+  "king_no.wav": {
+    "text": "Nordmenn er nordlendinger, trøndere, sørlendinger og folk fra alle andre regioner. Nordmenn er også innvandret fra Afghanistan, Pakistan, Polen, Sverige, Somalia og Syria. Det er ikke alltid så lett å si hvor vi er fra. Hvilken nasjonalitet!",
+    "seconds": 1.14,
+    "tokens": 225,
+    "ref": "Nordmenn er nordlendinger, trøndere, sørlendinger og folk fra alle andre regioner. Nordmenn er også innvandret fra Afghanistan, Pakistan, Polen, Sverige, Somalia og Syria. Det er ikke alltid så lett å si hvor vi er fra. Hvilken nasjonalitet."
+  },
+  "speech_phone.wav": {
+    "text": "",
+    "seconds": 0.53,
+    "tokens": 225,
+    "ref": ""
+  }
+}

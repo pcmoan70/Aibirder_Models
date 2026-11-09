@@ -1,0 +1,29 @@
+{
+  "chunk_seconds": 30,
+  "eot_id": 50257,
+  "forced_decoder_ids": [
+    [
+      1,
+      50288
+    ],
+    [
+      2,
+      50359
+    ],
+    [
+      3,
+      50363
+    ]
+  ],
+  "hf_repo": "NbAiLab/nb-whisper-base",
+  "hop_length": 160,
+  "id": "whisper_nb_base",
+  "language": "no",
+  "max_new_tokens": 224,
+  "n_fft": 400,
+  "n_mels": 80,
+  "sample_rate": 16000,
+  "sot_id": 50258,
+  "timestamp_begin_id": 50364,
+  "vocab_size": 51865
+}

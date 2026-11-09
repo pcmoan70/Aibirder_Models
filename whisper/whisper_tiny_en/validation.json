@@ -1,0 +1,20 @@
+{
+  "jfk.wav": {
+    "text": "And so my fellow Americans ask not what your country can do for you, ask what you can do for your country.",
+    "seconds": 0.41,
+    "tokens": 225,
+    "ref": "And so my fellow Americans ask not what your country can do for you, ask what you can do for your country."
+  },
+  "king_no.wav": {
+    "text": "I am not sure if I can do it, but I am not sure if I can do it. I am not sure if I can do it. I am not sure if I can do it.",
+    "seconds": 0.44,
+    "tokens": 225,
+    "ref": "I am not sure if I am going to do this. I am not sure if I am going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this. I am not going to do this"
+  },
+  "speech_phone.wav": {
+    "text": ".",
+    "seconds": 0.25,
+    "tokens": 225,
+    "ref": "."
+  }
+}

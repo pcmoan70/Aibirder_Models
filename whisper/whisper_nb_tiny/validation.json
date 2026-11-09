@@ -1,0 +1,20 @@
+{
+  "jfk.wav": {
+    "text": "Og så, mine følger og amerikanere, spør ikke hvorfor landet ditt kan gjøre for deg, spør hva du kan gjøre for landet ditt.",
+    "seconds": 0.57,
+    "tokens": 225,
+    "ref": "Og så, mine følger og amerika ... Spør ikke hvorfor landet ditt kan gjøre for deg, spør hva du kan gjøre for landet ditt."
+  },
+  "king_no.wav": {
+    "text": "Nordmenn er nordlendinger, trøndere, sørlendinger og folk fra alle andre regioner. Nordmenn er også innvandret fra Skannessan, Pakistan og Polen, Sverige, Somalia og Syria.",
+    "seconds": 0.51,
+    "tokens": 225,
+    "ref": "Nordmenn er nordlendinger, trøndere, sørlendinger og folk fra alle andre regioner. Nordmenn er også innvandret fra Skannessan, Pakistan og Polen, Sverige, Somalia og Syria."
+  },
+  "speech_phone.wav": {
+    "text": "Au!",
+    "seconds": 0.26,
+    "tokens": 225,
+    "ref": "Hva?"
+  }
+}

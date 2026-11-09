@@ -1,0 +1,16 @@
+{
+  "chunk_seconds": 30,
+  "eot_id": 50256,
+  "forced_decoder_ids": null,
+  "hf_repo": "openai/whisper-tiny.en",
+  "hop_length": 160,
+  "id": "whisper_tiny_en",
+  "language": "en",
+  "max_new_tokens": 224,
+  "n_fft": 400,
+  "n_mels": 80,
+  "sample_rate": 16000,
+  "sot_id": 50257,
+  "timestamp_begin_id": 50363,
+  "vocab_size": 51864
+}
